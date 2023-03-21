@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    
+    <style>@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;1,300&family=Montserrat:wght@300;700&display=swap');</style>
+        
+    <title>Drumkit</title>
+    
+
+    <div class = "headImg">
+        <img src = "./images/header.png" alt= "drumkit image" style="width: 10%;">
+        <h1>Drum Kit Challenge</h1>
+        <h2>Use the keyboard or click below!</h2>
+
+    </div> 
+</head>
+<body>
+
+   
+    <div class ="keys">
+        <div data-key= "65" class="key">
+            <img src="./images/clap.png" alt="hands clapping">
+            <span class="sound">Clap</span>
+            <kbd>A</kbd>
+            <audio data-key="65" src="./sounds/clap.wav"></audio>  
+        </div>
+        <div data-key= "83" class="key">
+            <img src="./images/boom2.png" alt="Microphone">
+            <span class="sound">Mic Tap</span>
+            <kbd>S</kbd>
+            <audio data-key="83" src="./sounds/boom.wav"></audio>
+        </div>
+        <div data-key= "68" class="key">
+            <img src="./images/hihat.png" alt="hihat cymbals">
+            <span class="sound">Hihat</span>
+            <kbd>D</kbd>
+            <audio data-key="68" src="./sounds/hihat.wav"></audio> 
+            
+        </div>
+        <div data-key= "70" class="key">
+            <img src="./images/hihatopen.webp" alt="openhihatcymbals">
+            <span class="sound">OpenHats</span>
+            <kbd>F</kbd>
+            <audio data-key="70" src="./sounds/openhat.wav"></audio>
+        </div>
+        <div data-key= "90" class="key">
+            <img src="./images/Snare.png" alt="snare drum">
+            <span class="sound">Snare</span>
+            <kbd>Z</kbd>
+            <audio data-key="90" src="./sounds/snare.wav"></audio>
+         </div>
+        <div data-key= "88" class="key">
+            <img src="./images/tom.png" alt="tom drum">
+            <span class="sound">Tom</span>
+            <kbd>X</kbd>
+            <audio data-key="88" src="./sounds/tom.wav"></audio>            
+        </div>
+        <div data-key= "67" class="key">
+            <img src="./images/ride.png" alt="ride cymbal">
+            <span class="sound">Ride</span>
+            <kbd>C</kbd>
+            <audio data-key="67" src="./sounds/ride.wav"></audio>            
+        </div>
+        <div data-key= "86" class="key">
+            <img src="./images/tink.png" alt="metronome">
+            <span class="sound">Metronome</span>
+            <kbd>V</kbd>     
+            <audio data-key="86" src="./sounds/tink.wav"></audio>        
+        </div>
+        <div data-key= "32" class="key">
+            <img src="./images/boom.png" alt="kick drum">
+            <span class="sound">Kick</span>
+            <kbd>Space</kbd>
+            <audio data-key="32" src="./sounds/kick.wav"></audio>
+          </div>
+    </div> 
+ 
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+   
+   
+
+
+    <script src="app.js"></script>
+</body>
+</html>
